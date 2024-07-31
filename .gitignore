@@ -1,0 +1,7 @@
+skill lab.rar
+/frontend/node_modules
+/frontend/.gitignore
+/backend/node_modules
+/backend/.gitignore
+/backend/.env
+/backend/config/development.env
