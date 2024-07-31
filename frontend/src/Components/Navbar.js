@@ -3,8 +3,8 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import LoginModal from './LoginModal';
 import RegisterModal from './RegisterModal';
-import { isSignedIn, signOut, getUserDetails } from '../services'; // Import sign-out function
-import './Navbar.css'; // Import the custom CSS
+import { isSignedIn, signOut, getUserDetails } from '../services';
+import './Navbar.css';
 
 const NavigationBar = () => {
   const [showLogin, setShowLogin] = useState(false);

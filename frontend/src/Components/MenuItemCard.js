@@ -1,14 +1,14 @@
 import React from 'react';
 import { Card, Col, Row, Badge } from 'react-bootstrap';
-import '../css/MenuItemCard.css'; // Assuming you have a CSS file for custom styles
+import '../css/MenuItemCard.css'
 
 const getRatingColor = (rating) => {
   if (rating >= 4.5) {
-    return { backgroundColor: '#28a745' }; // Green for good ratings (4.5 and above)
+    return { backgroundColor: '#28a745' }; 
   } else if (rating >= 3.0 && rating < 4.5) {
-    return { backgroundColor: '#ffc107' }; // Yellow for average ratings (between 3.0 and 4.49)
+    return { backgroundColor: '#ffc107' }; 
   } else {
-    return { backgroundColor: '#dc3545' }; // Red for bad ratings (below 3.0)
+    return { backgroundColor: '#dc3545' };
   }
 };
 
