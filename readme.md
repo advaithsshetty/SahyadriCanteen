@@ -50,7 +50,7 @@ SahyadriCanteen is a comprehensive web application designed for managing canteen
    
 2. **Navigate to the project directory:**
    ```bash
-   cd cms
+   cd SahyadriCanteen
    ```
 
 3. **Install dependencies:**
